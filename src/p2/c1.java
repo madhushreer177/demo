@@ -3,6 +3,13 @@ package p2;
 public class c1 {
 
 	public static void main(String[] args) {
-		System.out.println("first Implements");
+		int a = 1;
+		int b = 2;
+		if (a > b) {
+			System.out.println("Yes");
+		}
+		else {
+			System.out.println("no");
+		}
 	}
 }
